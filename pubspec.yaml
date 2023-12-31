@@ -1,5 +1,5 @@
 name: alatpay_flutter
-description: "Alatpay payment gateway for flutter"
+description: "A flutter package for integrating WEMA Bank's Alatpay payment gateway into your flutter project. It supports Android, iOS and Web platforms. Other platforms coming soon."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 
@@ -17,7 +17,7 @@ homepage: https://github.com/egideons/alatpay_flutter.git
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 0.0.7
+version: 0.0.8
 
 environment:
   sdk: ">=3.2.3 <4.0.0"

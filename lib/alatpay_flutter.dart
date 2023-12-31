@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:webviewx/webviewx.dart';
 
-class AlatPayWidget extends StatefulWidget {
+class AlatPayFlutter extends StatefulWidget {
   final String apiKey;
   final String businessId;
   final Map? metaData;
@@ -15,7 +15,7 @@ class AlatPayWidget extends StatefulWidget {
   final String amount;
   final Function(dynamic response) onTransaction;
   final Function()? onClose;
-  const AlatPayWidget({
+  const AlatPayFlutter({
     super.key,
     required this.apiKey,
     required this.businessId,
@@ -31,10 +31,10 @@ class AlatPayWidget extends StatefulWidget {
   });
 
   @override
-  AlatPayWidgetState createState() => AlatPayWidgetState();
+  AlatPayFlutterState createState() => AlatPayFlutterState();
 }
 
-class AlatPayWidgetState extends State<AlatPayWidget> {
+class AlatPayFlutterState extends State<AlatPayFlutter> {
   late WebViewXController webviewController;
   String html = "";
   @override

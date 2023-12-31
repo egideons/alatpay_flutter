@@ -68,7 +68,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
       Navigator.push(
         context,
         MaterialPageRoute(builder: (context) {
-          return AlatPayWidget(
+          return AlatPayFlutter(
             apiKey: apiKey,
             businessId: businessId,
             email: email,

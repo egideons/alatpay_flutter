@@ -6,13 +6,41 @@ runme:
 
 # AlatPay Payment SDK
 
-A package for integrating alatpay payment gateway for flutter.
+The AlatPayFlutter class is a flutter widget that allows you to integrate WEMA Bank's Alatpay payment gateway into your flutter project. It provides a WebView that loads an Alatpay payment page with the transaction details to be processed. The class handles the response from the payment gateway and provides callback functions for handling successful transactions and errors. The class requires parameters such as metaData, businessId, apiKey, and amount to process the payment. It supports Android, iOS and Web platforms. Other platforms coming soon.
 
-## Developer
+## Author
 
 [![Linkedin Badge](https://img.shields.io/badge/-Gideon-black?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gideonchukwuoma/)](https://www.linkedin.com/in/gideonchukwuoma/)
 [![Twitter Badge](https://img.shields.io/badge/-@egideonchuks-1ca0f1?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/egideonchuks)](https://mobile.twitter.com/egideonchuks)
 [![My Badge](https://img.shields.io/badge/-Gideon.Chukwuoma.Chimemerie-green?style=for-the-badge&logo=Google-Chrome&logoColor=white&link=https://gideonchukwuoma.vercel.app/)](https://gideonchukwuoma.vercel.app/)
+
+## Features
+
+* Integration with Alatpay Payment Gateway: The AlatPayFlutter class allows you to easily integrate the Moamalat payment gateway into your Flutter app.
+
+* WebView Integration: The class provides a WebView that loads the Alatpay's payment page with the transaction details to be processed.
+
+* Transaction Handling: The class handles the response from the payment gateway and provides callback functions for handling successful transactions and errors.
+
+* Secure Transactions: The class generates a secure hash required by alatpay to ensure secure transactions.
+
+* Customizable: The class is customizable and allows you to configure parameters such as apiKey, businessId, currency, amount, and metaData to process the payment.
+
+Overall, the AlatPayFlutter class provides a convenient and secure way to integrate the AlatPay payment gateway into your Flutter app
+
+## Getting Started
+
+The AlatPayFlutter class has one constructor that takes the following parameters:
+
+`businessId` : The business ID obtained from AlatPay.
+
+`amount` : The amount to be charged for the transaction.
+
+`apiKey` : The api key obtained from AlatPay.
+
+`onTransaction` : A callback function that is called when the payment is completed successfully.
+
+`onClose`: A callback function that is called when the service is closed.
 
 ## Installation
 
@@ -20,12 +48,12 @@ To use this package, add `alatpay_flutter` as a [dependency in your pubspec.yaml
 
 ```yaml {"id":"01HJZ0C4E8NYR3TDB3TYMVYFWD"}
 dependencies:
-  alatpay_flutter:
+  alatpay_flutter: latest version
 ```
 
 ## Example
 
-How to use the flutter_alatpay package.
+How to use the alatpay_flutter package.
 
 ```dart {"id":"01HJZ0C4E8NYR3TDB3V1EYNWDG"}
 
