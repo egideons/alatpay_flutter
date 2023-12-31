@@ -1,10 +1,14 @@
-# AlatPay Payment SDK  
+---
+runme:
+  id: 01HJZ0C4EAHF88G22P96R27Q0H
+  version: v2.0
+---
+
+# AlatPay Payment SDK
 
 A package for integrating alatpay payment gateway for flutter.
 
 ## Developer
-
-[Chukwuoma Gideon Chimemerie](https://gideonchukwuoma.vercel.app/)
 
 [![Linkedin Badge](https://img.shields.io/badge/-Gideon-black?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gideonchukwuoma/)](https://www.linkedin.com/in/gideonchukwuoma/)
 [![Twitter Badge](https://img.shields.io/badge/-@egideonchuks-1ca0f1?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/egideonchuks)](https://mobile.twitter.com/egideonchuks)
@@ -14,7 +18,7 @@ A package for integrating alatpay payment gateway for flutter.
 
 To use this package, add `alatpay_flutter` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
-```yaml
+```yaml {"id":"01HJZ0C4E8NYR3TDB3TYMVYFWD"}
 dependencies:
   alatpay_flutter:
 ```
@@ -23,7 +27,7 @@ dependencies:
 
 How to use the flutter_alatpay package.
 
-```dart
+```dart {"id":"01HJZ0C4E8NYR3TDB3V1EYNWDG"}
 
 import 'dart:io';
 
