@@ -22,9 +22,7 @@ The AlatPayFlutter class is a flutter widget that allows you to integrate WEMA B
 
 Overall, the AlatPayFlutter class provides a convenient and secure way to integrate the AlatPay payment gateway into your Flutter app
 
-## Getting Started
-
-The AlatPayFlutter class has one constructor that takes the following parameters:
+## Documentation
 
 `businessId` : The business ID obtained from AlatPay.
 
@@ -35,6 +33,10 @@ The AlatPayFlutter class has one constructor that takes the following parameters
 `onTransaction` : A callback function that is called when the payment is completed successfully.
 
 `onClose`: A callback function that is called when the service is closed.
+
+<!-- `alatpay_flutter:` AlatPayFlutter dependency.
+
+`AlatPayFlutter`: The main AlatPayFlutter widget that handles the whole process. -->
 
 ## Installation
 
@@ -72,7 +74,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'AlatPay Flutter',
+      title: 'AlatPay',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: kAccentColor),
@@ -121,7 +123,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
       Navigator.push(
         context,
         MaterialPageRoute(builder: (context) {
-          return AlatPayWidget(
+          return AlatPayFlutter(
             apiKey: apiKey,
             businessId: businessId,
             email: email,
@@ -201,5 +203,6 @@ class _PaymentScreenState extends State<PaymentScreen> {
     );
   }
 }
+
 
 ```
