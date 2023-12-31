@@ -1,9 +1,3 @@
----
-runme:
-  id: 01HJZ0C4EAHF88G22P96R27Q0H
-  version: v2.0
----
-
 # AlatPay Payment SDK
 
 The AlatPayFlutter class is a flutter widget that allows you to integrate WEMA Bank's Alatpay payment gateway into your flutter project. It provides a WebView that loads an Alatpay payment page with the transaction details to be processed. The class handles the response from the payment gateway and provides callback functions for handling successful transactions and errors. The class requires parameters such as metaData, businessId, apiKey, and amount to process the payment. It supports Android, iOS and Web platforms. Other platforms coming soon.

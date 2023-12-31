@@ -1,8 +1,7 @@
----
-runme:
-  id: 01HJZRD03MY5K0DWQNJ8DHY1GC
-  version: v2.0
----
+## 0.0.9
+
+* Updated pubspec.yaml
+* Updated README.md
 
 ## 0.0.8
 
